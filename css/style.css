@@ -1,0 +1,68 @@
+*:focus {
+outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+details[open] .open {
+  display: none;
+}
+
+details:not([open]) .close {
+  display: none;
+}
+
+.tap {
+  /* margin: 12px; */
+  cursor:pointer;
+  user-select: none; /* CSS3 */
+  -moz-user-select: none; /* Firefox */
+  -webkit-user-select: none; /* Safari、Chromeなど */
+  -ms-user-select: none; /* IE10かららしい */
+
+}
+
+.container {
+  margin: 20px 4px;
+}
+
+.aka_gedan, .aka_joudan {
+  background-color: pink;
+}
+
+.hairetu {
+  height: 490px;
+  width: 200px;
+}
+
+.deme {
+  height: 96px;
+  width: 160px;
+  margin-bottom: 0px;
+}
+.deme4 {
+  height: 128px;
+  width: 160px;
+  margin-bottom: 0px;
+}
+.setumei {
+  margin: 0px;
+  display: inline-block;
+}
+.text {
+  margin: 0px;
+  font-size: 12px;
+  width: 160px;
+  height: 18px;
+  display: inline-block;
+  text-align: center;
+}
+/* p {
+width: 160px;
+background:orange;
+display: inline-block;
+text-align: center;
+
+} */
