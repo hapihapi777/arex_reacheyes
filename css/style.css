@@ -1,9 +1,14 @@
 *:focus {
 outline: none;
 }
+body {
+  font-family: Hiragino Maru Gothic Pro W4, Verdana, sans-serif;
+}
 
 li {
   list-style: none;
+  padding: 0px;
+  height: 130;
 }
 
 details[open] .open {
@@ -12,6 +17,14 @@ details[open] .open {
 
 details:not([open]) .close {
   display: none;
+}
+
+.hairetu {
+  height: 784px;
+  width: 320px;
+  /* height: 490px;
+  width: 200px; */
+  margin-top: 8px;
 }
 
 .tap {
@@ -26,43 +39,30 @@ details:not([open]) .close {
 
 .container {
   margin: 20px 4px;
+  padding: 0px;
 }
 
 .aka_gedan, .aka_joudan {
   background-color: pink;
 }
 
-.hairetu {
-  height: 490px;
-  width: 200px;
-}
 
 .deme {
   height: 96px;
   width: 160px;
-  margin-bottom: 0px;
 }
 .deme4 {
   height: 128px;
   width: 160px;
-  margin-bottom: 0px;
 }
 .setumei {
-  margin: 0px;
   display: inline-block;
 }
 .text {
-  margin: 0px;
   font-size: 12px;
+  font-weight: bold;
   width: 160px;
   height: 18px;
   display: inline-block;
   text-align: center;
 }
-/* p {
-width: 160px;
-background:orange;
-display: inline-block;
-text-align: center;
-
-} */
