@@ -46,6 +46,14 @@ details:not([open]) .close {
   background-color: pink;
 }
 
+.tori {
+  background-color: wheat;
+}
+
+.che {
+  background-color: tomato;
+}
+
 
 .deme {
   height: 96px;
