@@ -7,6 +7,7 @@ body {
 
 li {
   list-style: none;
+  margin: 0px;
   padding: 0px;
   height: 130;
 }
@@ -39,7 +40,7 @@ details:not([open]) .close {
 
 .container {
   margin: 20px 4px;
-  padding: 0px;
+  padding: 3px;
 }
 
 .aka_gedan, .aka_joudan {
@@ -63,14 +64,27 @@ details:not([open]) .close {
   height: 128px;
   width: 160px;
 }
-.setumei {
-  display: inline-block;
+
+
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+  margin-top: 8px;
 }
-.text {
-  font-size: 12px;
-  font-weight: bold;
-  width: 160px;
-  height: 18px;
-  display: inline-block;
+td, th {
+	padding: 3px;
+	width: 180px;
+	height: 130px;
+  font-size: 14px;
+  vertical-align: bottom;
   text-align: center;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
 }
