@@ -5,13 +5,6 @@ body {
   font-family: Hiragino Maru Gothic Pro W4, Verdana, sans-serif;
 }
 
-li {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-  height: 130;
-}
-
 details[open] .open {
   display: none;
 }
